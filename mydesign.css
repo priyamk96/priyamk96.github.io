@@ -1,0 +1,28 @@
+#d1{
+		height: 300px;
+		max-height: 300px;
+		width: 40%;
+		margin: 150px 30% 0px 30%;
+		z-index: 2;
+		position: absolute; top: 0px; left: 0px;  
+		background-color: white;
+		background-image: url("C:/Users/priyam/Desktop/practice/img1.jpg");
+		background-size:     cover;                    
+    	background-repeat:   no-repeat;
+}
+#d3 
+{
+	width:70%;
+	padding-left: 30%;
+	padding-top: 8%;
+}
+#d2{
+	z-index: 1; position: absolute; top: 0px; left: 0px;
+}
+
+#d4{
+	margin-top: 750px;
+	height: 300px;
+	/*width: 100%;
+	/*background-color: red;*/
+}

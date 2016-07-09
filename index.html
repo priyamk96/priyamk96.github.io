@@ -1,65 +1,196 @@
-<html>
-	<head>
-	<title>   MY PROFILE </title>
-		<style type="text/css">
-		#div1{  width: 1200px; height: auto; margin: auto auto; background: yellow;}
-		#div2{ background:  none; width: 300px; height:300px; float: left; margin: 25px 25px;
-				opacity: 0.8;background: pink;
-   				 filter: alpha(opacity=80);}
-		#div2 img {width: 280px;height: 280px; padding: 10px 10px;}
-		#div3{  background: none; width: 800px; float:left;height: 300px;margin: 25px 25px;opacity: 	0.3; filter: alpha(opacity=30);background:white;}
-		#div4{ background: none;width: 300px; height: 700px; float: left;margin: 25px 25px; 		background: violet;}
-		#div5{  background:none; width:800px; height:700px;float:left;margin: 25px 25px;opacity:    0.6; filter: alpha(opacity=60);background: blue;}
-		ul li { float: left; border: 5px solid black; padding: 4px 4px; margin: 10px 10px; color: 		red; table-layout: bold;}
-		ul li:hover{ color:blue;font-size: 20px;}
-		h1{text-align: center;color:darkred;}
-		</style>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>Priyam Khandelwal</title>
 
-	</head>
-
-	<body background="Glass-3D-HD-Wallpapers-1080P.jpg">
-			<div id="div1">
-				<div id="div2"><img src="hghg.jpg" > </div>
-				<div id="div3">
-					<ul type="none">
-						<a href="http:/www.profile.com"><li> PERSONAL DETAILS </li></a>
-						<a href="http:/www.profile.com"><li>QUALIFICATION</li></a>
-						<a href="http:/www.profile.com"><li>HOBBIES</li></a>
-						<a href="http:/www.profile.com"><li>PROJECTS</li></a>
-					</ul>	<br clear="all"> <br><br>
-					<p ><h1><center>Hi welcome to PRIYAM KHANDELWAL'S profile</center> </h1></p>
-				 </div>
-				<br clear="all">
-				<div id="div4"> <h2><address><center><u>ADDRESS:</u></center>
-										<center> c/o Mukesh Khandelwal<br>
-										 near sindhi gurudwara<br>
-										 neem da gate <br>
-										 bharatpur<br>
-										 rajasthan-321001</center></address></h2>
-										<br><br>
-							<h2><center> CONTACT : ----</center></h2>
-							<form>
-							NAME : <input type="text" name="name"><br><br>
-							email-id :<input type="text" name="mail-id" value="____@gmail.com"><br><br>
-							<center><input type="submit" name="submit" value="contact" ></center><br><br>
-
-								</form>
-										 </div>
-				<div id="div5"> 
-				<h2><center> <font color="white"> NAME : PRIYAM KHANDELWAL <br><br>
-				AGE : 18 <br><br>
-				DATE OF BIRTH : 16 NOVEMBER 1996 <br><br>
-				FATHER'S NAME : MR. MUKESH KHANDELWAL<br><br>
-				MOTHER'S NAME : MRS. MAMTA KHANDELWAL<br><br>
-				SIBLING : ONE (ARCHI KHANDELWAL)<br><br>
-				HOMETOWN : BHARATPUR , RAJASTHAN (321001)<br><br></font>
-				</center> 
-					</h2>
-				</div>
-				<br clear="all">
-
-
-			</div>
-	</body>
-
-</html>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="mydesign.css" rel="stylesheet">
+    <style type="text/css">body {background-color: #fff4e6;} </style>
+    
+  </head>
+    
+   <body  class="container-fluid" style="max-width:1300px;background:white;">
+    
+        <div class="row">
+            <div id="div1" class="col-sm-6" style="color:white;">
+                <h1>MY PROFILE</h1>
+                <br><br><br><br><br><br><br><br>
+                <a href="#" style="text-decoration:none;"><div class="c1 pad">HOME</div></a>
+                <a href="#div3" style="text-decoration:none;"><div class="c1 pad">WORK</div></a>
+                <a href="#div4" style="text-decoration:none;"><div class="c1 pad">RESUME</div></a>
+                <a href="#div5" style="text-decoration:none;"><div class="c1 pad">CONTACT ME</div></a>
+            </div>
+            <div id="div2" class="col-sm-6">
+                <h1 style="color:white;">About Me</h1>
+                <div id="d3"><img src="PicsArt_1457943328885.jpg" class="img-responsive img-circle" > </div>
+                
+                <p>PRIYAM KHANDELWAL</p>
+                <p>19 YEARS</p>
+                <p>WEB DEVELOPER</p>
+                <p>CODER</p>
+                <p>GEEK</p>
+            </div>
+        </div>
+    
+    
+        <div class="row" style="color:white;">
+            <div id="div3" class="col-sm-6">
+                <h1 style="color:black;">SKILLS</h1>
+                
+                <h2 style="color:black;">HTML</h2>
+                <div class="progress" id="x1">
+                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
+                  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                  </div>
+                </div>
+                
+                <h2 style="color:black;">CSS</h2>
+                <div class="progress" id="x2">
+                  <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                  </div>
+                </div>
+                
+                <h2 style="color:black;">C++</h2>
+                <div class="progress" id="x3">
+                  <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar"
+                  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                  </div>
+                </div>
+                
+                <h2 style="color:black;">JAVA</h2>
+                <div class="progress" id="x4">
+                  <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar"
+                  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                  </div>
+                </div>
+                
+                <h2 style="color:black;">PYTHON</h2>
+                <div class="progress" id="x5">
+                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
+                  aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                  </div>
+                </div>
+                
+                <h2 style="color:black;">JAVA SCRIPT</h2>
+                <div class="progress" id="x6">
+                  <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                  aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                  </div>
+                </div>
+            </div>
+            <div id="div4" class="col-sm-6">
+            
+                <h1>RESUME</h1>
+                        <h3 style="text-align:center;padding:10px 0px 0px;">Academic Qualification</h3>
+                  <div class="w3-container w3-responsive" style="margin-top:50px;">
+                    <table class="w3-table">
+                      <tr>
+                        <th>Year</th>
+                        <th>Title</th>
+                        <th>Where</th>
+                        <th>CGPA/Percentage</th>
+                      </tr>
+                      <tr class="w3-white">
+                        <td>2014-2018</td>
+                        <td>Persuing B.Tech. in Computer Science</td>
+                        <td>NIT Warngal</td>
+                        <td>9.92/10(current)</td>
+                      </tr>
+                      <tr>
+                        <td>2014</td>
+                        <td>Higher Secondary</td>
+                        <td>Sony Academy Public School,Bharatpur</td>
+                        <td>90.8%</td>
+                      </tr>
+                      <tr class="w3-white">
+                        <td>2012</td>
+                        <td>Secondary</td>
+                        <td>V.P.S. School,Bharatpur</td>
+                        <td>86.5%</td>
+                      </tr>
+                    
+                    </table>
+                  </div>
+                
+<!--
+                <div id="space">
+                </div>
+-->
+                    <h3 style="text-align:center;padding-top:30px">Project and Experience</h3>
+                <div class="w3-container w3-responsive" style="margin-top:30px;">
+                    <table class="w3-table">
+                        <tr>
+                        <th>Project Title</th>
+                        <th>Description</th>
+                      </tr>
+                        <tr class="w3-white">
+                            <td>Hackathon 5.0</td>
+                            <td>A 24-hour hackathon was conducted in the campus on january 31,2016.I participated in a team of 2 and worked on the problem statement of fetching the news from web.</td>
+                        </tr>
+                        <tr>
+                            <td>Microsoft Code.Fun.Do</td>
+                            <td>Participated in a team of 4. Made a windows app named "My Vision" and made it to top-4 teams of college.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+       <div class="row">
+            <div id="div5" class="col-sm-6" style="color:white;">
+                <div id="last">
+                  <p>..for a cup of coffee, or whatever.</p>
+                  <p>NIT WARANGAL, Warangal, India</p>
+                  <p>+91 9032242531</p>
+                  <p>priyamkhandelwalbtp@gmail.com</p>
+                </div>
+                <div id="download">
+                    <a href="resume%20pdf.pdf" style="text-decoration:none;"><button type="button" class="btn btn-info btn-block" ><span class="glyphicon glyphicon-envelope"></span> DOWNLOAD MY RESUME</button></a>
+                </div>
+                <div id="map" style="margin-left:50px">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.9599333135034!2d79.53075941404794!3d17.98060099015931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334fbed0e815ad%3A0x67437eac02986d4c!2sNIT+Warangal+Stadium!5e0!3m2!1sen!2sin!4v1445431517092" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="div6" class="col-sm-6">
+                <div class="w3-padding-64 w3-padding-xxlarge">
+                  <h1 style="color:white;text-align:left;">Contact</h1>
+                  <p class="w3-opacity" style="text-align:left;">GET IN TOUCH</p>
+                  <form class="w3-container w3-card-2 w3-padding-32 w3-white">
+                    <div class="w3-group">
+                      <label>Name</label>
+                      <input class="w3-input" style="width:100%;" type="text" required>
+                    </div>
+                    <div class="w3-group">
+                      <label>Contact Number</label>
+                      <input class="w3-input" style="width:100%;" type="text" required>
+                    </div>
+                    <div class="w3-group">
+                      <label>Email-Id</label>
+                      <input class="w3-input" style="width:100%;" type="text" required>
+                    </div>
+                    <div class="w3-group">
+                      <label>Subject</label>
+                      <input class="w3-input" style="width:100%;" type="text" required>
+                    </div>
+                    <button type="button" class="w3-btn w3-right w3-theme">Send</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+       
+       
+       <div class="row">
+            <div class="col-sm-12" id="div7">
+                <div id="quote">I Love Meeting New People !!!</div>
+               <a href="http://www.facebook.com/priyamkhandelwal" target="_blank"><div id="facebook"><img src="fb.jpg"></div></a> 
+               <a href="https://in.linkedin.com/in/priyamkhandelwal" target="_blank"><div id="linkedin"><img src="linkedin.png"></div></a> 
+           </div>
+       <div>
+    
+    </body>
